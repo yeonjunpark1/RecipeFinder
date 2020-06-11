@@ -1,0 +1,64 @@
+.App {
+  min-height: 100vh;
+  background-color: white;
+}
+@import url('https://fonts.googleapis.com/css2?family=Vidaloka&display=swap');
+
+/* html {
+  background-image: url('./images/cook2.jpg');
+} */
+.search-form {
+  margin-top: 5%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dropdown_menu {
+  min-height: 5vh;
+  display: flex;
+  border-color: lightcoral;
+  border-width: 2px;
+  border-radius: 2px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 20px grey;
+  margin-top: 5%;
+  margin-left: 3%;
+}
+.search-bar {
+  margin-top: 5%;
+  width: 50%;
+  border: none;
+  box-shadow: 0px 5px 20px grey;
+  padding: 10px;
+}
+
+.search-button {
+  margin-top: 5%;
+  background: lightcoral;
+  box-shadow: 0px 5px 20px grey;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+
+#disclaimer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* @media (min-width: 900px) {
+  .recipes {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} */

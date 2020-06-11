@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {
+  background-image: url(./images/cook9.jpg);
+  z-index: -1;
+}
+.start_title {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-radius: 25%;
+  font-size: 75px;
+  font-family: Palatino;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 7%;
+  margin-bottom: 0;
+}
+
+h2 {
+  background-color: white;
+
+  font-family: Palatino;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
